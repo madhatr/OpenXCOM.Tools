@@ -31,32 +31,31 @@ namespace MapView.Forms.MainWindow
 			//
 			// toolStripButtons
 			//
-			var tssDivider1 = new ToolStripSeparator();
+			//var tssDivider1 = new ToolStripSeparator();
 			var tsbUp       = new ToolStripButton();
 			var tsbDown     = new ToolStripButton();
-			var tssDivider2 = new ToolStripSeparator();
+			//var tssDivider2 = new ToolStripSeparator();
 			var tsbCut      = new ToolStripButton();
 			var tsbCopy     = new ToolStripButton();
 			var tsbPaste    = new ToolStripButton();
-			var tssDivider3 = new ToolStripSeparator();
+			//var tssDivider3 = new ToolStripSeparator();
 			var tsbFill     = new ToolStripButton();
-			var tssDivider4 = new ToolStripSeparator();
+			//var tssDivider4 = new ToolStripSeparator();
 			//
 			// toolStrip
 			//
 			var tsItems = new ToolStripItem[] // NOTE: c# cant figure out how to use 1 separator 3 times.
 			{
-				tssDivider1,
 				tsbUp,
 				tsbDown,
-				tssDivider2,
+                new ToolStripSeparator(),
 				tsbCut,
 				tsbCopy,
 				tsbPaste,
-				tssDivider3,
+                new ToolStripSeparator(),
 				tsbFill,
-				tssDivider4
-			};
+                new ToolStripSeparator()
+            };
 			toolStrip.Items.AddRange(tsItems);
 			//
 			// tsbUp
