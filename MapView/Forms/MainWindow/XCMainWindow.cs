@@ -135,11 +135,10 @@ namespace MapView
 			// opening the designer; it appears to run only when actually
 			// running the application:
 
-			var size = new Size();
-			size.Width  =
-			size.Height = 0;
-			MaximumSize = size; // fu.net
-
+			//var size = new Size();
+			//size.Width  =
+			//size.Height = 0;
+            
 
 			// jijack: These two events keep getting deleted in my designer:
 			tvMaps.BeforeSelect += OnMapSelect;
