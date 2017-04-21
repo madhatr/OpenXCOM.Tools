@@ -138,6 +138,8 @@ namespace MapView
 			//var size = new Size();
 			//size.Width  =
 			//size.Height = 0;
+			//MaximumSize = size;
+            // Commented out this workaround 4/17/2017(-MadHaTr) if nothing breaks delete it after a month.
             
 
 			// jijack: These two events keep getting deleted in my designer:
