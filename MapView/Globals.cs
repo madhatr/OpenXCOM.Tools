@@ -6,7 +6,7 @@ namespace MapView
 	internal static class Globals
 	{
 		internal const double MinPckImageScale = 0.3;
-		internal const double MaxPckImageScale = 2.0;
+		internal const double MaxPckImageScale = 6.0;
 
 		private static double _pckImageScale = 1.0;
 		internal static double PckImageScale
