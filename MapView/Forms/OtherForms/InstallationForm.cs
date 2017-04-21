@@ -36,7 +36,7 @@ namespace MapView
 			var size = new System.Drawing.Size();
 			size.Width  =
 			size.Height = 0;
-			MaximumSize = size; // fu.net
+			MaximumSize = size;
 
 
 			// NOTE: Add your own personal XCOM resources-dir here if desired:
