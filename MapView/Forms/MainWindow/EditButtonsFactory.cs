@@ -46,6 +46,7 @@ namespace MapView.Forms.MainWindow
 			//
 			var tsItems = new ToolStripItem[] // NOTE: c# cant figure out how to use 1 separator 3 times.
 			{
+                new ToolStripSeparator(),
 				tsbUp,
 				tsbDown,
                 new ToolStripSeparator(),
